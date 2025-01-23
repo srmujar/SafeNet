@@ -1,0 +1,184 @@
+.home-page-content {
+    height: 100vh;
+    --background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-toolbar {
+    --background: #f5f5f5;
+  }
+  
+  .title-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vh;
+    gap: 2vw;
+  }
+  
+  .logo-container img {
+    height: 20px;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-toolbar ion-title {
+    color: #555555;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0;
+  }
+  
+  /* .logo-container {
+    height: 50px;
+    width: 25px;
+    margin-left: 5vw;
+    margin-top: 2vh;
+  } */
+  
+  /* .home-toolbar ion-title {
+    margin-left: 5vw;
+    color: #555555;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 0%;
+  }
+  
+  .home-user-account-button {
+    margin-right: 2vw;
+  }
+  
+  .home-user-account-icon {
+    color: #555555;
+    height: 25px;
+    width: 30px;
+  } */
+  
+  .home-slogan-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+    line-height: 35px;
+  }
+  
+  .home-slogan {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 5vw;
+    color: black;
+  }
+  
+  .second-line {
+    color: #ffab38;
+  }
+  
+  /* .home-search-container {
+    margin: 3vh 4vw 2vh 4vw;
+  }
+  
+  .home-search-container ion-searchbar {
+    --background: white;
+    --placeholder-color: #808080;
+    --icon-display: none;
+  } */
+  
+  .search-item {
+    border-radius: 10px;
+    margin: 3vh 5vw 3vh 5vw;
+    font-size: 14px;
+    --background: white;
+    --color: black;
+    --ion-border-color: transparent; /*removes underline below input field*/
+  }
+  
+  .search-icon {
+    color: white;
+  }
+  
+  .search-button {
+    background: #ffab38;
+    border-radius: 10px;
+    height: 5vh;
+  }
+  
+  .home-topics-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 6vw;
+    color: black;
+  }
+  
+  .home-grid {
+    margin-top: 1vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+  }
+  
+  .home-grid ion-card {
+    margin: 0 0 0 0;
+    border-radius: 10px;
+  }
+  
+  .home-grid ion-card:hover {
+    transition: 0.1s ease;
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px;
+  }
+
+  .home-lessons-card-title-container {
+    padding-left: 3vw;
+  }
+  
+  .home-lessons-card-title {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 1vh;
+    white-space: nowrap;
+  }
+  
+  .home-grid ion-card img {
+    height: 70px;
+  }
+  
+  .home-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+  
+  .home-lessons-card-subtitle {
+    font-weight: lighter;
+    color: white;
+  }
+  
+  .home-lesson-one-card {
+    background: #ffab38;
+  }
+  
+  .home-lesson-two-card {
+    background: #b20605;
+  }
+  
+  .home-lesson-three-card {
+    background: #485882;
+  }
+  
+  .home-lesson-four-card {
+    background: #141317;
+  }
+  
+  ion-tab-bar,
+  ion-tab-button {
+    background: white;
+    --color: #d4d4d4;
+    --color-selected: #ffab38;
+  }
+  

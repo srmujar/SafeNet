@@ -1,0 +1,6 @@
+.tools-topic-two-page-content {
+    --background: #b20605;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

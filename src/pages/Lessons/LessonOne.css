@@ -1,0 +1,122 @@
+.lesson-one-page-content {
+    height: 100vh;
+    --background: #ffab38;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* .lesson-one-buttons {
+    background-color: transparent;
+  } */
+  
+  .lesson-one-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    /* height: 300px; */
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+  }
+  
+  .lesson-one-image-container img {
+    width: 70%;
+    /* height: 20%; */
+    opacity: 25%;
+  }
+  
+  .lesson-one-grid-container {
+    width: 100%;
+    background: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    /* bottom: 0; */
+    padding: 5px;
+    display: block;
+    height: auto;
+    min-height: 55vh;
+  }
+  
+  .lesson-one-title {
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+  }
+  
+  /* .lessonc-one-title ion-title {
+    font-weight: bold;
+  } */
+  
+  .lesson-one-label h1 {
+    color: #ffab38;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 5vw;
+    margin-top: 5vh;
+  }
+  
+  .lesson-one-label h2 {
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    margin-bottom: 0;
+  }
+  
+  .lesson-one-label p {
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+    margin: 3vh 5vw 0 5vw;
+  }
+  
+  /* .step-item {
+    font-weight: 500;
+  } */
+  
+  .info-box {
+    padding: 15px;
+    background-color: #eeeeee;
+    border-left: 5px solid #ffab38;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-box h2 {
+    margin: 0;
+    color: #ffab38;
+    font-weight: bold;
+  }
+  
+  .info-box p {
+    margin-top: 8px;
+    color: #555;
+  }
+  
+  .topic-one-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3vh;
+    margin-right: 5vw;
+    padding-bottom: 3vh;
+    /* margin-left: 5vw;
+    gap: 35vw; */
+  }
+  
+  .topic-one-next-button,
+  .topic-one-prev-button {
+    background: #ffab38;
+    color: white;
+    width: 45%;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 12px;
+    /* --ripple-color: transparent; */
+  }
+  

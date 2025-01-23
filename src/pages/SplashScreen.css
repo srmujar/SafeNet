@@ -1,0 +1,22 @@
+.splashscreen-page-content {
+    --background: #f5f5f5; /* Or your preferred background color */
+  }
+  
+  .splashscreen-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    animation: fadeIn 1.5s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

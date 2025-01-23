@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">safenet</string>
+    <string name="title_activity_main">safenet</string>
+    <string name="package_name">ionic.safenet</string>
+    <string name="custom_url_scheme">ionic.safenet</string>
+</resources>

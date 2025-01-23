@@ -1,0 +1,69 @@
+.article-topic-one-page-content {
+    --background: white; /* Adjust background color if needed */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article-topic-one-back-button-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 10px;
+    background-color: transparent;
+  }
+  
+  .article-topic-one-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    height: 40vh;
+    /* margin-left: -23%; */
+  }
+  
+  .article-topic-one-image-container img {
+    opacity: 25%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .article-topic-one-image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Darken the image with transparency */
+    z-index: 0; /* Make sure the overlay is below the title */
+  }
+  
+  .article-topic-one-title {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .article-topic-one-title ion-title {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .article-topic-one-grid-container {
+    position: relative;
+    margin-top: -5vh;
+    background: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 5px;
+  }
+  
+  .article-topic-one-read-button {
+    text-wrap: nowrap;
+  }

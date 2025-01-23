@@ -1,0 +1,7 @@
+.lesson-three-page-content {
+    height: 100vh;
+    --background: #485882;
+    display: flex;
+    flex-direction: column;
+  }
+  

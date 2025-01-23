@@ -1,0 +1,8 @@
+.quiz-two-page-content {
+    --background: #b20605;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

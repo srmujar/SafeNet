@@ -1,0 +1,6 @@
+.tools-topic-four-page-content {
+    --background: #141317;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

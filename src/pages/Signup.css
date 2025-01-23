@@ -1,0 +1,108 @@
+.signup-page-content {
+    --background: #ffab38;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .signup-toolbar {
+    --background: #ffab38;
+  }
+  
+  .signup-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-image-container img {
+    width: 80%;
+    max-width: 350px;
+    height: auto;
+  }
+  
+  .signup-grid-container {
+    width: 100%;
+    background: #f5f5f5;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    bottom: 0;
+    padding-bottom: 3vh;
+  }
+  
+  .signup-label {
+    color: black;
+    font-weight: bold;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  
+  .signup-item {
+    --background: #eeeeee;
+    color: black;
+    margin: 0 5vw 0 5vw;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 14px;
+  }
+  
+  /* .signup-email-item {
+    --background: #eeeeee;
+    color: black;
+    margin: 3vh 5vw 0 5vw;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 14px;
+  }
+  
+  .signup-password-item {
+    --background: #eeeeee;
+    color: black;
+    margin: 0 5vw 0 5vw;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 14px;
+  } */
+  
+  .signup-item::placeholder {
+    color: #8d8d8d;
+  }
+  
+  .signup-button {
+    margin: 2vh 5vw 0 5vw;
+    height: 50px;
+    --background: #ffab38;
+    color: white;
+    font-size: 14px;
+    text-transform: capitalize;
+  }
+  
+  .signup-button::part(native) {
+    border-radius: 10px;
+  }
+  
+  ion-text .signup-account-label .signup-create-account-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-account-label {
+    color: #656565;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+  
+  .signup-create-account-button {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-top: 1vh;
+  }
+  

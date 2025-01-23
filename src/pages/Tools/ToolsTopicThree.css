@@ -1,0 +1,6 @@
+.tools-topic-three-page-content {
+    --background: #485882;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }

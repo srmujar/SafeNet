@@ -1,0 +1,8 @@
+.quiz-three-page-content {
+    --background: #485882;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

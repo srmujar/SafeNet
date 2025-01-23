@@ -1,0 +1,6 @@
+.lesson-four-page-content {
+    height: 100vh;
+    --background: #141317;
+    display: flex;
+    flex-direction: column;
+  }
